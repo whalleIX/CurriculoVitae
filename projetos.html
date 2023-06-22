@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>PORTFÓLIO JHUAN</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: url(imgs/FUNDO.jpg);
+            background-size: cover;
+        }
+
+        header {
+            display: flex;
+            font-size: 10vw;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .header2 {
+            display: flex;
+            font-size: 1.225vw;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 0 0 8px rgb(164, 79, 0);
+        }
+
+        h2 {
+            font-size: 1.5vw;
+            color: white;
+            text-shadow: 0 0 8px rgb(255, 136, 0);
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 25vh;
+        }
+
+        .flexglob {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .itens {
+            display: flex;
+            flex-direction: row;
+            justify-content: center
+        }
+
+        .navBar {
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(255, 132, 0, 0.269);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .itens>img {
+            background-color: rgba(169, 169, 169, 0.121);
+            width: 10rem;
+            border-radius: 25%;
+        }
+
+        .active {
+            background-color: rgba(255, 255, 255, 0.215);
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navBar">
+        <header>
+            <div class="header2">
+                <a href="index.html">
+                    <h1>PORTFÓLIO JHUAN</h1>
+                </a>
+            </div>
+        </header>
+        <a href="index.html">
+            <h2>PÁGINA INICIAL</h2>
+        </a>
+        <a class="active" href="projetos.html">
+            <h2>PROJETOS</h2>
+        </a>
+        <a href="história.html">
+            <h2>HISTÓRIA</h2>
+        </a>
+        <a href="contato.html">
+            <h2>CONTATO</h2>
+        </a>
+    </div>
+    <div class="flexglob">
+        <div class="content">
+            <img style="
+        width: 15rem;
+        height: 15rem;
+        border-radius: 100%;" src="imgs/Músico.png">
+            <h1>Músico/Compositor<br>Vivo de música desde sempre!</h1>
+        </div>
+        <div class="content">
+            <img style="
+        width: 15rem;
+        height: 15rem;
+        border-radius: 100%;" src="imgs/Desenvolvedor.png">
+            <h1>Desenvolvedor de Sistemas<br>Cursando SENAI técnico</h1>
+        </div>
+    </div>
+</body>
+
+</html>

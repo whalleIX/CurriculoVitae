@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>PORTFÓLIO JHUAN</title>
+    <link rel="icon" href="">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: url(imgs/FUNDO.jpg);
+            background-size: cover;
+        }
+
+        header {
+            display: flex;
+            font-size: 10vw;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .header2 {
+            display: flex;
+            font-size: 1.225vw;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 0 0 8px rgb(164, 79, 0);
+        }
+
+        h2 {
+            font-size: 1.5vw;
+            color: white;
+            text-shadow: 0 0 8px rgb(255, 136, 0);
+        }
+
+        .content {
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 11.25vh;
+            width: 80vw;
+            height: 80vh;
+            background-color: rgba(255, 255, 255, 0.10);
+            box-shadow: 10px 10px rgba(255, 94, 1, 0.788);
+        }
+
+        .navBar {
+            width: 100vw;
+            height: 10vh;
+            background-color: rgba(255, 132, 0, 0.269);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .itens>img {
+            background-color: rgba(169, 169, 169, 0.121);
+            width: 10rem;
+            border-radius: 25%;
+        }
+
+        .active {
+            background-color: rgba(255, 255, 255, 0.215);
+            border-radius: 20%;
+        }
+
+        .css1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navBar">
+        <header>
+            <div class="header2">
+                <a href="index.html">
+                    <h1>PORTFÓLIO JHUAN</h1>
+                </a>
+            </div>
+        </header>
+        <a class="active" href="index.html">
+            <h2>PÁGINA INICIAL</h2>
+        </a>
+        <a href="projetos.html">
+            <h2>PROJETOS</h2>
+        </a>
+        <a href="história.html">
+            <h2>HISTÓRIA</h2>
+        </a>
+        <a href="contato.html">
+            <h2>CONTATO</h2>
+        </a>
+    </div>
+    <div class="css1">
+        <div class="content">
+            <a href="projetos.html">
+                <img style="height:40vw; width: 80vw;" src="imgs/banner.png">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
